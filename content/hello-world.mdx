@@ -1,0 +1,113 @@
+---
+title: "Learning Generative AI and RAG"
+publishedAt: "2025-02-15"
+summary: "My first post on my new blog."
+---
+
+## NLP: Making Text Understandable to Computers
+
+### Text Preprocessing
+
+**Tokenization**: Breaking text into smaller units like words or subwords.  
+**Embeddings**: Numerical representations of words that capture their meaning.  
+
+### Attention Mechanism
+
+**Definition**: Attention assigns a weight to each word, indicating its importance in the given context.  
+
+## Transformers
+
+- Process entire sentences at once.  
+- Identify key words immediately.  
+- Understand relationships between words even if they are far apart.  
+- Process text much faster.  
+
+### How Transformers Work
+
+- Represent words using embeddings and positions.  
+- Use attention to determine important words.  
+- Process through multiple layers to refine understanding.  
+
+## Similarity Measures
+
+- **Cosine Similarity**: Measures the angle between two vectors.  
+- **Jaccard Similarity**: Considers shared words rather than exact matches.  
+- **Euclidean Distance**: Measures the straight-line distance between vectors.  
+
+## Information Retrieval: Finding the Right Information
+
+### Key Components
+
+- **Document Representation**: Encoding documents for efficient retrieval.  
+- **Scoring and Ranking**: Assigning relevance scores to retrieved documents.  
+- **Indexing**: Organizing data for fast look-up.  
+
+## Retrieval-Augmented Generation (RAG)
+
+### Purpose
+
+Enhances Large Language Model (LLM) accuracy by retrieving specific information before generation.  
+
+### Process
+
+1. **Retrieval Model**: Identifies relevant documents.  
+2. **Generative Model**: Uses retrieved documents to generate responses.  
+
+### Traditional Retrieval Methods
+
+#### TF-IDF (Term Frequency-Inverse Document Frequency)
+
+- **TF**: Measures word frequency within a document.  
+- **IDF**: Measures how rare or common a word is across all documents.  
+- **Goal**: Identifies unique terms that distinguish documents.  
+
+#### BM25 (Best Matching 25)
+
+- Enhances TF-IDF with frequency saturation adjustments.  
+- **K1**: Controls the impact of word frequency.  
+- **b**: Adjusts for document length to ensure relevance.  
+- Excels in complex searches.  
+
+## Dense Retrieval Models
+
+Use embeddings—numerical representations capturing the essence of words and phrases.  
+
+### Dense Passage Retrieval (DPR)
+
+- Retrieves information based on meaning rather than exact word matches.  
+- Creates embeddings for both queries and documents, matching them for retrieval.  
+
+### Dual Encoder Architecture
+
+- Independently processes the question and document.  
+- Compares their embeddings for relevance.  
+
+## Generative Models
+
+- Generate sentences that are meaningful and coherent.  
+
+### Working Principle
+
+1. Retrieve relevant information.  
+2. Use attention mechanisms to guide text generation.  
+3. Predict the next word step-by-step until a full, meaningful response is formed.  
+
+## End-to-End Workflow: RAG Pipeline in Action
+
+1. **User Input**: The system receives a query.  
+2. **Question Transformation**: Converts the question into a vector representation.  
+3. **Retrieval Step**:  
+   - Searches a database (e.g., PostgreSQL with `pgvector`).  
+   - Uses similarity matching to find the best results.  
+4. **Generative Model Processing**:  
+   - Takes the retrieved information as context.  
+   - Generates a factually accurate and coherent response.  
+5. **Final Output**: A clear, relevant, and precise response, leveraging both retrieval and generative components.  
+
+## Why RAG Matters
+
+Combining retrieval and generative models enables:  
+
+- More coherent responses.  
+- Factually accurate outputs.  
+- Enhanced clarity in generated text.  
