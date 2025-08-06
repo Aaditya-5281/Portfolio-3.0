@@ -64,6 +64,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true
       },
+      Resume: {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/12YS7NWKeuRGwOwDVksAs9w3nauG3sa8M/view",
+        icon: Icons.resume,
+        navbar: true
+      }
     }
   },
   education: [
