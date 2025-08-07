@@ -1,11 +1,17 @@
-// src/data/mediumBlogs.ts
 export const mediumBlogs = [
+    {
+      title: "How Do Transformers Remember ?",
+      summary: "The multi-layer perceptron (MLP) block is the unsung hero of Transformers, the place where most of the model’s knowledge is stored.",
+      url: "https://medium.com/@aadityakumar26082004/how-do-transformers-remember-7898accab8f3",
+      date: "7th August, 2025",
+    },
     {
       title: "Attention Please !",
       summary: "A deep dive into the attention mechanism",
       url: "https://medium.com/@aadityakumar26082004/understanding-the-heart-of-ai-a-deep-dive-into-the-attention-mechanism-0c3c90fc1ae4",
       date: "6th August, 2025",
     },
+    
     {
       title: "Inside The Transformers.",
       summary: "How Transformers actually work",
