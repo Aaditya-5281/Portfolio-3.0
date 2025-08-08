@@ -5,8 +5,7 @@ export const DATA = {
   name: "Aaditya Kumar",
   initials: "DV",
   location: "India",
-  description:
-    "Engineering elegant solutions to complex problems",
+  description: "Engineering elegant solutions to complex problems",
   summary:
     "Hi, I'm Korella Aaditya, specializing in Artificial Intelligence and Machine Learning with a focus on Agentic AI, multi-agent orchestration, and LLM-based systems.  I'm passionate about building scalable AI systems that integrate reasoning, orchestration, and dynamic interaction.",
   avatarUrl: "/anime.jpg",
@@ -16,7 +15,7 @@ export const DATA = {
     "Python",
     "Rust",
     "Next.js",
-    "Node.js", 
+    "Node.js",
     "MongoDB",
     "Redis",
     "Docker",
@@ -25,11 +24,9 @@ export const DATA = {
     "PostgreSQL",
     "LangChain",
     "Ollama",
-    "MCP"
+    "MCP",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "aadityakumar4042@gmail.com",
     tel: "8555065596",
@@ -38,39 +35,39 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/Aaditya-5281",
         icon: Icons.github,
-        navbar: true
+        navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/Aaditya26082004",
         icon: Icons.x,
-        navbar: true
+        navbar: true,
       },
       Medium: {
         name: "Medium",
         url: "https://medium.com/@aadityakumar26082004", // replace with your Medium profile
         icon: Icons.medium,
-        navbar: true
+        navbar: true,
       },
       Gmail: {
         name: "Gmail",
         url: "mailto:aadityakumar4042@gmail.com", // use your email address
         icon: Icons.gmail,
-        navbar: true
+        navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/aaditya-kumar-0b662224a/",
         icon: Icons.linkedin,
-        navbar: true
+        navbar: true,
       },
       Resume: {
         name: "Resume",
         url: "https://drive.google.com/file/d/12YS7NWKeuRGwOwDVksAs9w3nauG3sa8M/view",
         icon: Icons.resume,
-        navbar: true
-      }
-    }
+        navbar: true,
+      },
+    },
   },
   education: [
     {
@@ -80,7 +77,7 @@ export const DATA = {
       logoUrl: "/vnrlogo.jpg",
       start: "2022",
       end: "2026",
-    }
+    },
   ],
   work: [
     {
@@ -92,9 +89,10 @@ export const DATA = {
       end: "July 2025",
       href: "",
       logoUrl: "/viswam.svg",
-      description: "During my internship as an AI Developer Intern at VISWAM.AI – Summer of AI 2025, a prestigious program supported by IIIT Hyderabad, Meta, and Swecha, I worked on building practical AI solutions in a collaborative, open-source environment. I gained hands-on experience in Python, DevOps, and collaborative software development while fine-tuning AI models on locally sourced datasets. My focus was on deploying these models into real-world applications, particularly in agentic AI systems that involved multi-agent orchestration, reasoning, and real-time interaction. This experience strengthened my foundational knowledge in AI and deepened my expertise in developing scalable, intelligent systems for impactful use cases.",
-      badges: []
-    }
+      description:
+        "During my internship as an AI Developer Intern at VISWAM.AI – Summer of AI 2025, a prestigious program supported by IIIT Hyderabad, Meta, and Swecha, I worked on building practical AI solutions in a collaborative, open-source environment. I gained hands-on experience in Python, DevOps, and collaborative software development while fine-tuning AI models on locally sourced datasets. My focus was on deploying these models into real-world applications, particularly in agentic AI systems that involved multi-agent orchestration, reasoning, and real-time interaction. This experience strengthened my foundational knowledge in AI and deepened my expertise in developing scalable, intelligent systems for impactful use cases.",
+      badges: [],
+    },
   ],
   projects: [
     {
@@ -111,14 +109,14 @@ export const DATA = {
         "OpenAI",
         "Ollama",
         "MCP",
-        "CrewAI"
+        "CrewAI",
       ],
       links: [
-          {
-            type: "Source",
-            href: "https://github.com/Aaditya-5281/Agentic-Deep-Researcher",
-            icon: <Icons.github className="size-3" />,
-          },
+        {
+          type: "Source",
+          href: "https://github.com/Aaditya-5281/Agentic-Deep-Researcher",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
       video: "/videos/Agent.mp4",
@@ -130,12 +128,7 @@ export const DATA = {
       active: true,
       description:
         "A powerful AI-powered travel planning application that creates personalized travel itineraries using multiple AI agents.",
-      technologies: [
-        "Python",
-        "AutoGen",
-        "LangChain",
-        "OpenAI",
-      ],
+      technologies: ["Python", "AutoGen", "LangChain", "OpenAI"],
       links: [
         {
           type: "Source",
@@ -166,7 +159,7 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/Aaditya-5281/Finance-Advisor",
           icon: <Icons.github className="size-3" />,
-        }
+        },
       ],
       image: "",
       video: "/videos/Finance_Agent.mp4 ",
@@ -178,19 +171,13 @@ export const DATA = {
       active: true,
       description:
         "A powerful AI-powered financial research tool that generates comprehensive company reports using multiple specialized AI agents. This application combines web search capabilities, stock analysis, and AI-driven report generation to provide detailed insights about companies.",
-      technologies: [
-        "Python",
-        "AutoGen",
-        "LangChain",
-        "OpenAI",
-        "Streamlit",
-      ],
+      technologies: ["Python", "AutoGen", "LangChain", "OpenAI", "Streamlit"],
       links: [
         {
           type: "Source",
           href: "https://github.com/Aaditya-5281/Company_research",
           icon: <Icons.github className="size-3" />,
-        }
+        },
       ],
       image: "",
       video: "/videos/Investo.mp4",
@@ -198,36 +185,50 @@ export const DATA = {
   ],
   Milestones: [
     {
+      title: "Grop",
+      dates: "August, 2025",
+      description:
+        "A simple grep-like tool written in Rust for searching patterns in files.",
+      location: "",
+      image: "./terminal.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Aaditya-5281/Grep",
+        },
+      ],
+    },
+
+    {
       title: "Brainly",
       dates: "July, 2025",
       description:
         "Brainly is your personal knowledge management system designed to store, organize, and access your thoughts, ideas, and learning materials. With sleek, intuitive UI components and powerful search and organization features, Brainly is the ultimate digital brain for managing your thoughts.",
-      location:"",
-      image:
-        "./brain.png",
+      location: "",
+      image: "./brain.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/Aaditya-5281/Brainly",
-        }
+        },
       ],
     },
-    
+
     {
       title: "ZapPay",
       dates: "July, 2025",
       description:
         "ZapPay is your lightning-fast, secure, and seamless digital payment solution designed for the modern world. Whether you're sending money to friends, paying for groceries, or managing your business transactions — ZapPay makes it instant, effortless, and reliable.",
-      location:"",
-      image:
-        "./money.png",
+      location: "",
+      image: "./money.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/Aaditya-5281/ZapPay",
-        }
+        },
       ],
     },
     {
@@ -235,31 +236,28 @@ export const DATA = {
       dates: "July , 2025",
       description:
         "Vibe is a chill, modern chat app that lets users drop into themed rooms and connect in real-time. Whether it’s work, study, or casual hangouts — create your vibe, and chat away.",
-      location:"",
-      image:
-        "./vibe.png",
+      location: "",
+      image: "./vibe.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/Aaditya-5281/Vibe",
-        }
+        },
       ],
     },
     {
       title: "Machine Learning",
       dates: "May 3, 2025",
-      description:
-        "Machine Learning Resources ",
-      location:"",
-      image:
-        "./ai.png",
+      description: "Machine Learning Resources ",
+      location: "",
+      image: "./ai.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/Aaditya-5281/AI-ML",
-        }
+        },
       ],
     },
     {
@@ -267,15 +265,14 @@ export const DATA = {
       dates: "April 8th, 2025",
       description:
         "A comprehensive web application for managing staff training programs and certifications. ",
-      location:"",
-      image:
-        "./book.png",
+      location: "",
+      image: "./book.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/Aaditya-5281/STCMP",
-        }
+        },
       ],
     },
     {
@@ -283,15 +280,14 @@ export const DATA = {
       dates: "April 1st, 2025",
       description:
         "Research Assistant is a tool designed to help researchers and academics streamline their literature review process. It provides features for document analysis, paper summarization, and research synthesis using advanced AI capabilities.",
-      location:"",
-      image:
-        "./scientist.png",
+      location: "",
+      image: "./scientist.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/Aaditya-5281/research-assistant",
-        }
+        },
       ],
     },
   ],
