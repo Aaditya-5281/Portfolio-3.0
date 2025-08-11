@@ -19,7 +19,7 @@ const fontSans = FontSans({
 
 const title = `${DATA.name} - ${DATA.description}`;
 const description = DATA.summary;
-const url = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const url = process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio-3-0-beta-eight.vercel.app";
 
 export const metadata: Metadata = {
   title,
