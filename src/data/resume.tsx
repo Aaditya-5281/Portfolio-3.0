@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Aaditya Kumar",
-  initials: "DV",
+  initials: "Aadi",
   location: "India",
   description: "Engineering elegant solutions to complex problems",
   summary:
