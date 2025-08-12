@@ -184,6 +184,25 @@ export const DATA = {
     },
   ],
   Milestones: [
+
+
+    {
+      title: "Multilingual Reasoning LLM",
+      dates: "August, 2025",
+      description:
+        "Fine-tuned an open-source GPT-OSS model using LoRA/QLoRA on a custom multilingual reasoning dataset to enhance step-by-step logical reasoning across multiple languages. Optimized training with Unsloth for reduced VRAM usage on NVIDIA T4, including explicit GPU memory management for large context handling. Achieved improved reasoning coherence and cross-lingual consistency in inference, enabling the model to tackle complex problem-solving scenarios beyond English.",
+      location: "",
+      image: "./llm.jpg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Aaditya-5281/Multilingual-Reasoning-LLM",
+        },
+      ],
+    },
+
+
     {
       title: "Grop",
       dates: "August, 2025",
