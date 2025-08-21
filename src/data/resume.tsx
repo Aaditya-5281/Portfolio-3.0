@@ -184,8 +184,21 @@ export const DATA = {
     },
   ],
   Milestones: [
-
-
+    {
+      title: "Contently",
+      dates: "August, 2025",
+      description:
+        "An intelligent agent that turns your newsletters and blog articles into engaging posts.",
+      location: "",
+      image: "./book.jpg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Aaditya-5281/Contently",
+        },
+      ],
+    },
     {
       title: "Multilingual Reasoning LLM",
       dates: "August, 2025",
@@ -201,8 +214,6 @@ export const DATA = {
         },
       ],
     },
-
-
     {
       title: "Grop",
       dates: "August, 2025",
