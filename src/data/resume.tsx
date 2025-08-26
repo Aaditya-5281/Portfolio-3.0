@@ -182,38 +182,44 @@ export const DATA = {
       image: "",
       video: "/videos/Investo.mp4",
     },
-  ],
-  Milestones: [
     {
       title: "Contently",
-      dates: "August, 2025",
+      href: "https://github.com/Aaditya-5281/Contently",
+      dates: "Aug 2025",
+      active: true,
       description:
         "An intelligent agent that turns your newsletters and blog articles into engaging posts.",
-      location: "",
-      image: "./book.jpg",
+      technologies: ["Python", "LangGraph", "LangChain", "LangSmith", "Gemini"],
       links: [
         {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          type: "Source",
           href: "https://github.com/Aaditya-5281/Contently",
+          icon: <Icons.github className="size-3" />,
         },
       ],
+      image: "",
+      video: "/videos/linked-in.mp4",
     },
     {
       title: "Multilingual Reasoning LLM",
-      dates: "August, 2025",
+      href: "https://github.com/Aaditya-5281/Multilingual-Reasoning-LLM",
+      dates: "Aug 2025",
+      active: true,
       description:
         "Fine-tuned an open-source GPT-OSS model using LoRA/QLoRA on a custom multilingual reasoning dataset to enhance step-by-step logical reasoning across multiple languages. Optimized training with Unsloth for reduced VRAM usage on NVIDIA T4, including explicit GPU memory management for large context handling. Achieved improved reasoning coherence and cross-lingual consistency in inference, enabling the model to tackle complex problem-solving scenarios beyond English.",
-      location: "",
-      image: "./llm.jpg",
+      technologies: ["Python", "Transformer", "LoRA", "Unsloth", "Fine-tuning"],
       links: [
         {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          type: "Source",
           href: "https://github.com/Aaditya-5281/Multilingual-Reasoning-LLM",
+          icon: <Icons.github className="size-3" />,
         },
       ],
+      image: "",
+      video: "/videos/finetune.mp4",
     },
+  ],
+  Milestones: [
     {
       title: "Grop",
       dates: "August, 2025",
