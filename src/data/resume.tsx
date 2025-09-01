@@ -218,6 +218,24 @@ export const DATA = {
       image: "",
       video: "/videos/finetune.mp4",
     },
+    {
+      title: "Geeta-Bot",
+      href: "https://github.com/Aaditya-5281/Geeta_Bot",
+      dates: "Sep 2025",
+      active: true,
+      description:
+        "Geeta-Bot is a Telegram bot that leverages AI to answer spiritual questions, provide guidance, and share wisdom inspired by the Bhagavad Gita and other spiritual teachings.",
+      technologies: ["Python", "LangChain", "Gemini", "Bot API", "Agentic AI"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Aaditya-5281/Geeta_Bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/bot.mp4",
+    },
   ],
   Milestones: [
     {
