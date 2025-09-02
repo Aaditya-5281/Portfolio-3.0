@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "data:", // Use a simple .ico file
+    icon: "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3c/svg%3e",
   },
   twitter: {
     title,
