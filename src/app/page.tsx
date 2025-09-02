@@ -258,13 +258,13 @@ export default function Page() {
                 >
                   with a direct question on twitter
                 </Link>{" "}
-                or{" "}
+                or Just Mail to{" "}
                 <Link
                   href={DATA.contact.social.Gmail.url}
                   className="text-blue-500 hover:underline"
                   rel="noopener noreferrer"
                 >
-                  Just Mail me
+                  aadityakumar4042@gmail.com
                 </Link>{" "}
                 and I&apos;ll respond whenever I can.
               </p>
