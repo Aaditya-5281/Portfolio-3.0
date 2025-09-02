@@ -219,17 +219,17 @@ export const DATA = {
       video: "/videos/finetune.mp4",
     },
     {
-      title: "Geeta-Bot",
-      href: "https://github.com/Aaditya-5281/Geeta_Bot",
+      title: "Gita-Bot",
+      href: "https://github.com/Aaditya-5281/Gita_Bot",
       dates: "Sep 2025",
       active: true,
       description:
-        "Geeta-Bot is a Telegram bot that leverages AI to answer spiritual questions, provide guidance, and share wisdom inspired by the Bhagavad Gita and other spiritual teachings.",
+        "Gita-Bot is a Telegram bot that leverages AI to answer spiritual questions, provide guidance, and share wisdom inspired by the Bhagavad Gita and other spiritual teachings.",
       technologies: ["Python", "LangChain", "Gemini", "Bot API", "Agentic AI"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/Aaditya-5281/Geeta_Bot",
+          href: "https://github.com/Aaditya-5281/Gita_Bot",
           icon: <Icons.github className="size-3" />,
         },
       ],
