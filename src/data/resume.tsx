@@ -8,7 +8,7 @@ export const DATA = {
   description: "Engineering elegant solutions to complex problems",
   summary:
     "Hi, I'm Korella Aaditya, specializing in Artificial Intelligence and Machine Learning with a focus on Agentic AI, multi-agent orchestration, and LLM-based systems.  I'm passionate about building scalable AI systems that integrate reasoning, orchestration, and dynamic interaction.",
-  avatarUrl: "/anime.jpg",
+  avatarUrl: "/photo.jpg",
   skills: [
     "JavaScript",
     "TypeScript",
@@ -217,24 +217,6 @@ export const DATA = {
       ],
       image: "",
       video: "/videos/finetune.mp4",
-    },
-    {
-      title: "Gita-Bot",
-      href: "https://github.com/Aaditya-5281/Gita_Bot",
-      dates: "Sep 2025",
-      active: true,
-      description:
-        "Gita-Bot is a Telegram bot that leverages AI to answer spiritual questions, provide guidance, and share wisdom inspired by the Bhagavad Gita and other spiritual teachings.",
-      technologies: ["Python", "LangChain", "Gemini", "Bot API", "Agentic AI"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/Aaditya-5281/Gita_Bot",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/videos/bot.mp4",
     },
   ],
   Milestones: [

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     url,
     siteName: DATA.name,
-    locale: 'en_US',
+    locale: "en_US",
     images: [
       {
         url: `${url}/me.png`,
@@ -56,12 +56,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [
-      { url: "/", sizes: "32x32" },
-      { url: "/anime.png" },
-    ],
-    shortcut: "/",
-    apple: { url: "/apple-icon.png", sizes: "180x180" },
+    icon: "data:", // Use a simple .ico file
   },
   twitter: {
     title,

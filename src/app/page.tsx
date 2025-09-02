@@ -31,7 +31,9 @@ export default function Page() {
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
-              <h1 className="sr-only">{DATA.name} - {DATA.description}</h1>
+              <h1 className="sr-only">
+                {DATA.name} - {DATA.description}
+              </h1>
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
@@ -40,7 +42,11 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
-                <AvatarImage alt={`${DATA.name}'s profile picture`} src={DATA.avatarUrl} />
+                <AvatarImage
+                  alt={`${DATA.name}'s profile picture`}
+                  src={DATA.avatarUrl}
+                  className="object-cover object-center"
+                />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -161,7 +167,6 @@ export default function Page() {
         </div>
       </section>
 
-
       <section id="medium-blogs" aria-label="Medium Blogs">
         <div className="space-y-12 w-full py-12">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -208,7 +213,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Through my projects, I learned a lot.
+                  Through my projects, I learned a lot.
                 </p>
               </div>
             </div>
@@ -246,20 +251,21 @@ export default function Page() {
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
-                  <Link
-                    href={DATA.contact.social.X.url}
-                    className="text-blue-500 hover:underline"
-                    rel="noopener noreferrer"
-                  >
-                    with a direct question on twitter
-                  </Link>{" "}
-                or <Link
-                    href={DATA.contact.social.Gmail.url}
-                    className="text-blue-500 hover:underline"
-                    rel="noopener noreferrer"
-                  >
-                    Just Mail me
-                  </Link>{" "}
+                <Link
+                  href={DATA.contact.social.X.url}
+                  className="text-blue-500 hover:underline"
+                  rel="noopener noreferrer"
+                >
+                  with a direct question on twitter
+                </Link>{" "}
+                or{" "}
+                <Link
+                  href={DATA.contact.social.Gmail.url}
+                  className="text-blue-500 hover:underline"
+                  rel="noopener noreferrer"
+                >
+                  Just Mail me
+                </Link>{" "}
                 and I&apos;ll respond whenever I can.
               </p>
             </div>
