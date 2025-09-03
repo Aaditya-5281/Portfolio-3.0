@@ -218,6 +218,24 @@ export const DATA = {
       image: "",
       video: "/videos/finetune.mp4",
     },
+    {
+      title: "AI_Humanizer",
+      href: "https://github.com/Aaditya-5281/AI_Humanizer",
+      dates: "Sep 2025",
+      active: true,
+      description:
+        "A lightweight app that transforms AI-generated or casual text into polished, academic-style writing. Perfect for students, researchers, and professionals who want their text to sound more natural and formal.",
+      technologies: ["Python","Streamlit","NLP","Transformer"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Aaditya-5281/AI_Humanizer",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/human.mp4",
+    },
   ],
   Milestones: [
     {
