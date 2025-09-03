@@ -234,7 +234,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/videos/human.mp4",
+      video: "/videos/humanize.mp4",
     },
   ],
   Milestones: [
