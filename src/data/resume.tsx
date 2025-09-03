@@ -219,7 +219,7 @@ export const DATA = {
       video: "/videos/finetune.mp4",
     },
     {
-      title: "AI_Humanizer",
+      title: "AI Humanizer",
       href: "https://github.com/Aaditya-5281/AI_Humanizer",
       dates: "Sep 2025",
       active: true,
